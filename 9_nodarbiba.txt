@@ -1,0 +1,28 @@
+Uzdevumi:
+
+Ir 2 varianti. Variantu izvēlaties paši.
+1. Variants pārbauda prasmes izmantot noteiktus elementus. Programmas ir daudz īsākas un vienkāršākas, bet jums ir 4 uzdevumi. 
+2. Variants ir tehniski mazliet sarežģītāks - jums ir jāizstrādā pilna programma. Šo variantu izvēlaties, ja jūtaties pietiekami drošs savās spējās.
+
+Lūdzu uzmanīgi izlasam uzdevuma nosacījumus.
+Blokshēmām nevajag būt 1:1 attiecībā pret programmām. Pietiek ar to, ka ir ieskicēta loģika, bet šai loģikai ir jābūt saprotamai. Lūdzu izmantojat pareizos elementus - Aplis (sākums, beigas), Rombs (loģiskais zars), Taisnstūris (darbība, aprēķins), Paralelograms (ievade, izvade).
+Blokshēmas var zīmēt izmantojot rīku https://draw.io
+Izvēloties variantu lūdzu pierakstat to programmas augšējā daļā. Ja ir jautājumi par uzdevuma nosacījumiem droši jautājat.
+Drīkst izmantot - Internetu, savas programmas
+Nedrīkst izmantot - Klasesbiedru palīdzību, kodu ģeneratorus (chatgpt etc.)
+
+Šis teksts pieejams - http://s.ayy.lv/0911kd
+1. Variants - https://ayy.lv/pp1w7izu7h.txt
+2. Variants - https://ayy.lv/zb4mlfu9t8.txt
+
+Iesniegšana:
+E-klasē līdzīgi kā iepriekšējos i/ni darbus. Jāiesniedz gan blokshēmas gan python fails ar pirmkodu.
+
+Lūdzu pārbaudat vai:
+1) Programma palaižas
+2) Visiem failiem ir pareizie paplašinājumi (.py python failam/iem, .drawio/.png/.jpeg blokshēmām)
+
+Vērtēšana:
+
+Atzīmes būs pieejamas nedēļas nogalē. Duplikāti darbi (plaģiāti) tiks novērtēti ar 1 abiem cilvēkiem. Pieminēšu, ka pārbaude notiks starp visām 3 klasēm (11.1, 11.4 un 11.6).
+Punkti un vērtēšanas kritēriji ir redzami pie uzdevumu nosacījumiem.
