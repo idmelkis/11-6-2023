@@ -56,7 +56,7 @@ fun()
 
 #import math
 # Funkcija no cita faila
-from nodarbiba24 import divide
+from nodarbiba4.nodarbiba24 import divide
 print(divide(10, 2))
 
 # Standarta vērtība
