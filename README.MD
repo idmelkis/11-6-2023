@@ -11,4 +11,7 @@ Lai atvērtu .drawio failus, saglabājat tos uz jūsu datora, apmeklējat [draw.
 ## 4. Funkcijas
 ## 5.,6. Funkcijas, blokshēmas
 ## 7, 8. Gatavošanās KD
-## 9. KD
+## 9. Kontroldarbs
+## 10.,11.,12. Vārdnīcas, JSON
+## 13.,14.,15. Klases
+## 16. Kontroldarbs
