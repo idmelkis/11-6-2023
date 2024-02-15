@@ -15,3 +15,4 @@ Lai atvērtu .drawio failus, saglabājat tos uz jūsu datora, apmeklējat [draw.
 ## 10.,11.,12. Vārdnīcas, JSON
 ## 13.,14.,15. Klases
 ## 16. Kontroldarbs
+## 17. Atkļūdošana
