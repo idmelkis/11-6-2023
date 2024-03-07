@@ -1,0 +1,11 @@
+-- Uzdevums - Izveidot failu "test.txt" manuāli. 
+Faila saturs: Vārds uzvārds, klase
+Izveidot programmu kurā 
+* Pārbauda vai fails (test.txt) un fails (test_new.txt) eksistē.
+* Ja neeksistē 'test.txt' izvadīt kļūdu un beigt darbu
+* Ja neeksistē 'test_new.txt', izveidot šo failu, un ievietot 
+  CSV galveni kolonām datums un vērtība
+* Nolasat faila 'test.txt' vērtību
+  un pievienojat to kā jaunu rindu 'test_new.txt'
+  Pirmajā kolonā ir pašreizējais laiks, otrajā - test.txt vērtība
+* Izvadat faila test_new.txt saturu uz ekrāna

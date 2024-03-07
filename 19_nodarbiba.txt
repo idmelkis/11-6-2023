@@ -1,0 +1,26 @@
+https://github.com/idmelkis/11-6-2023
+
+1. Uzdevums
+
+Izveidojat mapi "faili". 
+Izveidojat mapē failus ar nosaukumiem no 0 līdz 100. 
+Katrā failā noglabājat gadījumskaitli.
+Prasat lietotājam atvērt kādu no šiem failiem, 
+  un ievadīt vērtību, kas ir failā. 
+Atkarībā no tā vai ievadīts pareizi, izvadīt "pareizi", vai "nepareizi".
+Kad programma beidz darbu, izdzēšat šo mapi.
+
+2. Uzdevums
+
+Izveidot failu ar saturu no https://www.lipsum.com/.
+Uzrakstat programmu, kas atver failu, un izvada vārdu skaitu failā.
+
+3. Uzdevums
+Izveidot failu ar saturu no https://www.lipsum.com/ [var izmantot no iepriekš. uzd].
+Izveidot programmu, kas
+* atver šo failu
+* izveido failu ar to pašu nosaukumu + "_uppercase"
+  (piem. fails.txt -> fails_uppercase.txt). 
+  Ja fails jau eksistē izvadat kļūdu.
+* otrajā failā saglabājat pirmā faila saturu pārveidojot visus burtus par lielajiem.
+  (.upper())
