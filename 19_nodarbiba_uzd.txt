@@ -9,3 +9,8 @@ Izveidot programmu kurā
   un pievienojat to kā jaunu rindu 'test_new.txt'
   Pirmajā kolonā ir pašreizējais laiks, otrajā - test.txt vērtība
 * Izvadat faila test_new.txt saturu uz ekrāna
+
+# Pašreizējā laika kods: 
+from datetime import datetime
+now = datetime.now()
+dt_string = now.strftime("%d/%m/%Y-%H:%M:%S")
