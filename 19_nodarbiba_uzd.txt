@@ -1,16 +1,22 @@
--- Uzdevums - Izveidot failu "test.txt" manuāli. 
+-- Uzdevums -- (i/ni)
+Izveidot failu "test.txt" manuāli. 
 Faila saturs: Vārds uzvārds, klase
 Izveidot programmu kurā 
 * Pārbauda vai fails (test.txt) un fails (test_new.txt) eksistē.
 * Ja neeksistē 'test.txt' izvadīt kļūdu un beigt darbu
 * Ja neeksistē 'test_new.txt', izveidot šo failu, un ievietot 
-  CSV galveni kolonām datums un vērtība
+  CSV galveni (header) kolonām: datums un vērtība (nav obligāti jāizmanto csv bibliotēka)
+  (skat piemēru zemāk.)
 * Nolasat faila 'test.txt' vērtību
   un pievienojat to kā jaunu rindu 'test_new.txt'
   Pirmajā kolonā ir pašreizējais laiks, otrajā - test.txt vērtība
-* Izvadat faila test_new.txt saturu uz ekrāna
+* Izvadat visu faila 'test_new.txt' saturu uz ekrāna
 
 # Pašreizējā laika kods: 
 from datetime import datetime
 now = datetime.now()
 dt_string = now.strftime("%d/%m/%Y-%H:%M:%S")
+
+Piemērs rezultāta failam:
+datums,vērtība
+07/03/2024-09:51:15,Vārds Uzvārds klase
