@@ -1,0 +1,18 @@
+Uzdevums: 
+Doti divi faili. Abi faili ir ar tabulatoru ('\t') adatalīti datu faili.
+Viens fails satur HGNC ID, gēnu simbolu gēna nosaukumu. Otrs fails satur Ensemble ID un gēna simbolu.
+Otrajā failā esošie simboli var nebūt pirmajā failā (un otrādi).
+Izveidojat programmu, kas 
+* atver abus failus
+* apvieno datus no abiem failiem
+* izvada terminālī datu par katru gēnu sekojošā formātā (print):
+
+Nosaukums:
+Simbols:
+HGNC ID:
+Ensemble ID:
+
+* Saglabā datus failā (arī augšā minētajā formātā).
+
+Ieteikums - Datus par katru gēnu glabāt klasē vai vārdnīcā. 
+Lai apvienotu datus no otrā faila, var izmantot vārdnīcu.
