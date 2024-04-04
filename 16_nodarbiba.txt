@@ -1,1 +1,57 @@
-Kontroldarba nosacījumi tika doti stundas laikā. Šie uzdevumi šeit parādīsies pēc pāris nedēļām.
+Kontroldarbs programmēšanā: Klases
+
+Darbs 2 mācību stundām. Katrs uzdevums ir vērts 4.5 punktus (4p par kodu, 0.5p par grafiku). Lai iegūtu 10 balles, vajag izpildīt visus uzdevumus UN izveidot vismaz 2 klašu grafikus. Bez grafikiem, max atzīme ir 9. Protams, ja neuzticaties savam kodam varat zīmēt grafikus lai potenciāli paceltu atzīmi.
+Grafikiem piemērs ir pieejams github: https://github.com/idmelkis/11-6-2023/blob/main/14_nodarbiba.drawio
+Lūdzu savelkat visas klases (ja ir mantošana, vai ir klases kā mainīgie iekš citas klases).
+
+1. Uzdevums - Mājasdarbs
+Piezīme - Šis uzdevums bija uzdots mājās. Lūdzu pievēršat uzmanību pēdējam teikumam, kurš nosacījumos pirms tam nebija (izveidojat objektus ar fiktīviem datiem). Ja esat izpildījuši mājās, lūdzu neaizmirstat iesniegt šo uzdevumu.
+
+Nosacījumi:
+Izveidojat klasi "Darbinieks". Šī klase satur informāciju par vārdu, uzvārdu, algu, un titulu. Jānodefinē funkcija 'aprēķiniBonusu', ka izvada 0, un 'aprēķiniKopAlgu', kas izvada algas mainīgā vērtību.
+Izveidojat apakšklases sekojošajiem darbinieku amatiem - 
+ - Menedžeris. Apakšklasei jāizseko tam cik daudz darbinieki ir zem šī menedžera. Bonuss ir darbinieku skaits * 100.
+ - Programmētājs. Apakšklasei jāizseko projekta nosaukums, kuram darbinieks ir piesaistīts. Bonuss ir 10% no algas.
+ - Testētājs. Apakšklasei jāizseko projekta nosaukums, kuram darbinieks ir piesaistīts, kā arī nostrādātais stundu skaits mēneša laikā šajā gadā. aprēķiniKopAlgu funkcija izvada nostrādāto stundu skaitu * 7. Bonuss - 5% no aprēķinātās algas.
+Izvadīt datus fiktīviem lietotājiem (var izmantot datus no klasē izstrādātā 2. uzdevuma).
+
+2. Uzdevums - Klases
+
+Izveidojat klasi "Kafejnīca". Šai klasei vajadzētu saturēt restorāna nosaukumu, un ēdienkarti, kas satur ēdiena nosaukumu, pieejamais skaits un tā cena.
+2.1.1. Izveidojat funkciju, kas izvada ēdienkarti (nosaukums & cena)
+2.1.2. Izveidojat funkciju, kas izvada visu preču vērtību (saskaitīta cena * skaits)
+2.2. Izveidojat funkciju, kas ļauj atjaunināt eksistējošu ēdienu (cenu, vai daudzumu)
+2.3. Izveidojat funkciju, kas ļauj pievienot ēdienu
+2.4. Izveidojat objektus, ar fiktīviem datiem
+
+3. Uzdevums - Klases
+
+Ir doti sekojoši dati
+(Gēns)
+Simbols 	Nosaukums 					Suga
+ADRA1D		adrenoceptor alpha 1D				Homo sapiens
+RGS11		regulator of G protein signaling 11		Homo sapiens
+Wdr11		WD repeat domain 11				Mus musculus
+Ralgapa1	Ral GTPase activating protein, alpha subunit 1	Mus musculus
+
+(Gēnu tīkls)
+Identifikators  Nosaukums					Gēni			Suga
+R-HSA-162582	Signal Transduction				ADRA1D,RGS11		Homo Sapiens
+R-MMU-194315	Signaling by Rho GTPases			Wdr11,Ralgapa1		Mus musculus
+
+3.1. Izveidojat klases gēniem, un gēnu tīkliem
+3.2. Izveidojat funkciju, kas ļauj pievienot tīklam gēnus. Šai funkcijai ir jāpārbauda, vai pievienojamais gēns atbilst tīka sugai.
+3.3. Izveidojat objektus, kas satur tabulā esošo informāciju
+3.4. Izveidojat funkciju gēnu tīklam, kas izvada visu informāciju par tīklā esošajiem gēniem
+3.4.1. Izsaucat šo funkciju tīklam "R-MMU-194315".
+
+4. Uzdevums - Mantošana
+
+Izveidojat klasi "Punkts2D". Šī klase satur X,Y koordinātes. Standarta vērtības koordinātēm ir 0.
+4.1. Izveidojat funkcijas, kas izvada individuālas koordinātas (piem. getX, getY) un tās uzstādīt (setX, setY).
+4.2. Printējot objektu (piem. print(punkts)) programmai vajadzētu izvadīt koordinātes "(x,y)" formātā (ieskaitot iekavas), t.i. print(punkts) izvada (0, 0). (jāatveras, kura speciālā funkcija ļāva to izmainīt).
+4.3. Izveidojat apakšklasi "Punkts3D". Šī klase satur Z koordinātas. 
+4.3.1. Pievienojat šai klasei funkciju kas izvada Z koordinātu
+4.3.2. Printējot objektu vajadzētu izvadīt koordinātes (x,y,z) formātā.
+4.4. Izveidojat 2 Punkts2D objektus ar paša izvēlētām koordinātēm. Aprēķināt līnijas garumu starp tām (pitagora teorēma, var izmantot math bibliotēkā esošo funkciju) un izvadīt to.
+4.5. Izveidojat 1 Punkts3D objektu ar paša izvēlētām koordinātēm. Izprintējiet šo objektu.
