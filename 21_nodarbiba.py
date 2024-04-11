@@ -1,6 +1,6 @@
 import sqlite3
 
-db = sqlite3.connect("database.db")
+db = sqlite3.connect("21_nodarbiba.db")
 cur = db.cursor()
 
 # class Lietotajs:
