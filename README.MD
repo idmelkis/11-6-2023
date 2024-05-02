@@ -12,9 +12,13 @@ Lai atvērtu .drawio failus, saglabājat tos uz jūsu datora, apmeklējat [draw.
 ## 5.,6. Funkcijas, blokshēmas
 ## 7, 8. Gatavošanās KD
 ## 9. Kontroldarbs
-## 10.,11.,12. Vārdnīcas, JSON
-## 13.,14.,15. Klases
+## 10., 11., 12. Vārdnīcas, JSON, Kontroldarbs
+## -- 1. Semestra beigas --
+## 13., 14., 15. Klases
 ## 16. Kontroldarbs
 ## 17. Atkļūdošana
 ## 18., 19., 20. Failu I/O
 ## 21., 22., 23., 24. Datu bāzes
+## 25. Gatavošanās KD
+## 26. Kontroldarbs (I/O & Datu Bāzes)
+## -- Mācību gada beigas! --
